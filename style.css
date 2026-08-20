@@ -1,0 +1,19 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    max-height: 100vh;
+    height: 100vh;
+}
+
+
+img {
+    width: 55vw;
+    height: 30vw;
+}

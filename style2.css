@@ -1,0 +1,126 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-color: #ffffff;
+    }
+
+
+    .navbar {
+      background-color: #000000; 
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 77;
+      height: 70px;
+    }
+
+    .logo {
+      color: white;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    
+    .links-centro {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+    }
+    .links-centro a {
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .links-centro a:hover {
+      color: rgb(255, 255, 255);
+    }
+
+    
+    .dropdown {
+      position: relative; 
+    }
+    
+    .dropdown-content {
+      display: none; 
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: white;
+      min-width: 220px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+      border-radius: 6px;
+      padding: 10px 0;
+      margin-top: 10px;
+      list-style: none;
+    }
+
+    .dropdown-content a {
+      color: #334155; 
+      padding: 12px 20px;
+      display: block;
+      font-size: 14px;
+    }
+    .dropdown-content a:hover {
+      background-color: #f1f5f9;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .botoes-direita {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .btn-entrar {
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .btn-entrar:hover {
+      color: rgb(255, 255, 255);
+    }
+    .btn-testar {
+      background-color: #3b82f6;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .btn-testar:hover {
+      background-color: #2563eb;
+    }
+  </style>
+/head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">MeuSaaS</div>
+    <ul class="links-centro">
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Funcionalidades</a></li>
+      <li class="dropdown">
+        <a href="#">Soluções ▾</a>
+        <ul class="dropdown-content">
+          <li><a href="#">Gestão de Swarm</a></li>
+          <li><a href="#">Agentes Remotos</a></li>
+          <li><a href="#">Documentação da API</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">Preços</a></li>
+    </ul>
+
+    <!-- Direita -->
+    <div class="botoes-direita">
+      <a href="#" class="btn-entrar">Entrar</a>
+      <a href="#" class="btn-testar">Testar Grátis</a>
+    </div>
+  </nav>

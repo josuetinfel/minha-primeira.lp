@@ -90,18 +90,25 @@
       background-color: #2563eb;
     }
 .caixa-divs{
-  border-bottom: #334155;
-  background-color:#45EA00;
-  display: flex;
-  justify-content: space-around;
-  position: fixed;
-  bottom: 300px;
-  left: 30%;
-  flex-direction: column;
-  align-items: flex-start; 
-  gap: 15px;
+background-color: red;
+  padding: 50px
+  }
+
+  .primeira-caixa{
+    background-color:#45EA00;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 15px;
+    width: 50%;
+  }
+  .segunda-caixa {
+    background-color: #45EA00;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end
   }
   .meio{
-    background-color: #2563eb
-    
   }

@@ -17,14 +17,6 @@
       padding: 0 77;
       height: 70px;
     }
-
-    .logo {
-      color: white;
-      font-size: 22px;
-      font-weight: bold;
-    }
-
-    
     .links-centro {
       display: flex;
       gap: 30px;
@@ -97,30 +89,19 @@
     .btn-testar:hover {
       background-color: #2563eb;
     }
-  </style>
-/head>
-<body>
-
-  <nav class="navbar">
-    <div class="logo">MeuSaaS</div>
-    <ul class="links-centro">
-      <li><a href="#">Início</a></li>
-      <li><a href="#">Funcionalidades</a></li>
-      <li class="dropdown">
-        <a href="#">Soluções ▾</a>
-        <ul class="dropdown-content">
-          <li><a href="#">Gestão de Swarm</a></li>
-          <li><a href="#">Agentes Remotos</a></li>
-          <li><a href="#">Documentação da API</a></li>
-        </ul>
-      </li>
-
-      <li><a href="#">Preços</a></li>
-    </ul>
-
-    <!-- Direita -->
-    <div class="botoes-direita">
-      <a href="#" class="btn-entrar">Entrar</a>
-      <a href="#" class="btn-testar">Testar Grátis</a>
-    </div>
-  </nav>
+.caixa-divs{
+  border-bottom: #334155;
+  background-color:#45EA00;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 300px;
+  left: 30%;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 15px;
+  }
+  .meio{
+    background-color: #2563eb
+    
+  }
